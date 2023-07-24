@@ -1,0 +1,14 @@
+colorscheme delek
+set wildmenu
+set laststatus=2
+set statusline=%F%m%r%h%w\ [FF,FE,TE=%{&fileformat},%{&fileencoding},%{&encoding}\]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][jonny\ aix]
+hi StatusLine gui=reverse cterm=reverse
+set ffs=unix,dos,mac
+set fencs=utf-8,cp1251,koi8-r,ucs-2,cp866
+set matchpairs+=<:> " показывать совпадающие скобки для HTML-тегов
+set t_Co=16 " использовать больше цветов в терминале
+set list " включить подсветку
+set listchars=tab:>-,trail:- " установить символы, которыми будет осуществляться подсвет
+filetype plugin on
+filetype indent on
+
