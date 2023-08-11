@@ -3,16 +3,16 @@ filetype plugin indent off
 
 call plug#begin('~/.vim/bundle')
 " Сборник всех плагинов для vim http://vimawesome.com/
-" Автодополнялки
 "Plug 'godlygeek/tabular' "выравнивание по шаблонам, может потом поиграюсь
 Plug 'plasticboy/vim-markdown'
+
+" Автодополнялки
 "Plug 'valloric/youcompleteme' "хуйня какаято, мало того что изза этого плагина запуск vim увеличивается на несколько секунд, так ещё изза него не пашет supertab
 "Plug 'ervandew/supertab'
 Plug 'shougo/neocomplete.vim' "мне этот плагин понравился
 Plug 'MicahElliott/Rocannon' "вроде хороший плагин по автодополнению для ансибла
 
 Plug 'jamessan/vim-gnupg'
-"Plug 'shougo/neocomplcache.vim'
 "Plug 'othree/html5.vim'
 "Plug 'davidhalter/jedi-vim'
 "Plug 'rip-rip/clang_complete'
@@ -20,7 +20,8 @@ Plug 'jamessan/vim-gnupg'
 " команды vim для дебага по автодополнялкам
 " :help ins-completion (посмотреть omni автодополнялки)
 " :verbose imap <tab> (посмотреть последнюю привязку что открылось по tab)
-"
+" конец автодополнялок
+
 " nerdtree
 " https://github.com/ryanoasis/nerd-fonts " поставить
 Plug 'scrooloose/nerdtree' "дерево файлов
